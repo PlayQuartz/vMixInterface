@@ -1,17 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+
+import './style.css';
+
+import Login from './Login';
+import Interface from './Interface';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <React.StrictMode>
+        <Router>
+            <Routes>
+                <Route path='/vMix' element={<Interface />} />
+                <Route path='/Login' element={<Login />} />
+            </Routes>
+        </Router>
+    </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
