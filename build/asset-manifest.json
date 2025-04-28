@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/vMixInterface/build/static/css/main.adca40ab.css",
-    "main.js": "/vMixInterface/build/static/js/main.394d7df4.js",
+    "main.js": "/vMixInterface/build/static/js/main.82e458ca.js",
     "index.html": "/vMixInterface/build/index.html",
     "main.adca40ab.css.map": "/vMixInterface/build/static/css/main.adca40ab.css.map",
-    "main.394d7df4.js.map": "/vMixInterface/build/static/js/main.394d7df4.js.map"
+    "main.82e458ca.js.map": "/vMixInterface/build/static/js/main.82e458ca.js.map"
   },
   "entrypoints": [
     "static/css/main.adca40ab.css",
-    "static/js/main.394d7df4.js"
+    "static/js/main.82e458ca.js"
   ]
 }
